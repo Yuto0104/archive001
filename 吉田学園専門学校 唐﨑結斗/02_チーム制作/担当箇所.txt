@@ -1,0 +1,50 @@
+//**************************************************
+// 
+// 担当箇所.txt
+// Author  : 唐﨑結斗
+// 
+//**************************************************
+
+◆ 担当箇所 ◆
+
+◆ メインプログラマー
+
+◇ メインシステム系
+[ application.cpp / application.h ]
+[ title.cpp / title.h ]
+[ game.cpp / game.h ]
+[ result.cpp / result.h ]
+[ scene_mode.cpp / scene_mode.h ]
+[ sound.cpp / sound.h ]
+[ main.cpp / main.h ]
+[ fade.cpp / fade.h ]
+[ pause.cpp / pause.h ]
+[ texture.cpp / texture.h ]
+[ renderer.cpp / renderer.h ]
+[ model3D.cpp / model3D.h ]
+
+◇ カメラ、入力、ライトなど
+[ camera.cpp / camera.h ]
+[ camera_manager.cpp / camera_manager.h ]
+[ joypad.cpp / joypad.h ]
+[ mouse.cpp / mouse.h ]
+[ keyboard.cpp / keyboard.h ]
+[ light.cpp / light.h ]
+
+◇ オブジェクト系
+[ object.cpp / object.h ]
+[ object2D.cpp / object2D.h ]
+[ object3D.cpp / object3D.h ]
+[ object3D.cpp / object3D.h ]
+[ motion_model3D.cpp / motion_model3D.h ]
+[ mesh.cpp / mesh.h ]
+[ sphere.cpp / sphere.h ]
+[ player.cpp / player.h ]
+[ model_obj.cpp / model_obj.h ]
+[ time.cpp / time.h ]
+[ number.cpp / number.h ]
+
+◇ ユーティリティ系
+[ move.cpp / move.h ]
+[ calculation.cpp / calculation.h ]
+[ motion.cpp / motion.h ]

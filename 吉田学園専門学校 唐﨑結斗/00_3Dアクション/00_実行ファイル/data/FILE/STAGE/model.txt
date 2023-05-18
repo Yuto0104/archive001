@@ -1,0 +1,129 @@
+#==============================================================================
+#
+# 『モデルビューワ』スクリプトファイル [model.txt]
+# Author : AKIRA TANAKA
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# 読み込むモデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 2
+
+#------------------------------------------------------------------------------
+# 読み込むモデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/airplane000.x
+MODEL_FILENAME = data/MODEL/kona.x
+MODEL_FILENAME = data/MODEL/tank100.x 
+MODEL_FILENAME = data/MODEL/test.x
+MODEL_FILENAME = data/MODEL/stone000.x				
+MODEL_FILENAME = data/MODEL/stone001.x				
+MODEL_FILENAME = data/MODEL/stone002.x
+MODEL_FILENAME = data/MODEL/wall000.x				
+MODEL_FILENAME = data/MODEL/wall001.x				
+MODEL_FILENAME = data/MODEL/wall002.x						
+ 
+#------------------------------------------------------------------------------
+# 表示するモデルの配置情報
+#------------------------------------------------------------------------------
+
+# 石壁
+MODELSET
+	TYPE = 9			# 種類
+	POS = 0 0 -850		# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 3.14 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = 350 0 -830	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 2.78 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = -350 0 -700	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -2.5 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 8			# 種類
+	POS = -600 0 -500	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -2.75 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 7			# 種類
+	POS = -820 0 -350	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -2.0 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = -880 0 -50	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -1.57 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = -750 0 370	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -1.0 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = -500 0 700	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -0.7 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = -100 0 900	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -0.3 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = 250 0 800	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 0.5 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 7			# 種類
+	POS = 540 0 690		# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 -0.15 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 8			# 種類
+	POS = 680 0 620		# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 1.0 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = 780 0 400		# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 1.25 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = 880 0 50		# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 1.57 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 9			# 種類
+	POS = 850 0 -300	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 1.95 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+MODELSET
+	TYPE = 8			# 種類
+	POS = 680 0 -590	# 位置(Ｘ/Ｙ/Ｚ)
+	ROT = 0 2.2 0		# 向き(Ｘ/Ｙ/Ｚ)
+END_MODELSET
+
+END_SCRIPT		# この行は絶対消さないこと！
